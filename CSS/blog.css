@@ -1,0 +1,569 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    padding: 15px 60px;
+    background-color: black;
+    border-bottom: 1px solid rgb(241,241,241);   
+}
+
+.header2{
+    display: flex;
+}
+
+header p{
+    margin: 0 5px;
+    color: gray;
+    font-size: 15px;
+    transition: color 0.5s;
+    border-right: 1px solid gray;
+    padding-right: 10px;
+}
+
+.customer{
+    border: none;
+    margin-right: 6.7in;
+}
+
+header .fa{
+    margin: 0 10px;
+    transition: color 0.5s;
+}
+
+header a .fa:hover{
+    color: black;
+}
+
+header a p:hover{
+    color: black;
+}
+
+nav{
+    background-color: white;
+    position: sticky;
+    top: 0%;
+    width: 100%; 
+    z-index: 1;
+}
+
+.navbar{
+    background-color: white;
+    float: right;
+    padding: 15px 20px 15px 1in; 
+    width: 100%;
+    text-align: center;
+}
+
+ul{
+    display: inline-flex;
+}
+
+li{
+    padding: 20px;
+}
+
+li a{
+    color: black;
+    font-size: 14px;
+}
+
+li a:hover{
+    color: rgb(39,77,215);
+}
+
+.logo{
+    /* padding-right: 5.7in; */
+    width: 80%;
+    height: max-content;
+    padding: 10px 0;
+    margin: 0 10%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    
+}
+
+.nav_home{
+    color: rgb(39,77,215);
+}
+
+.wrench{
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    padding: 10px;
+    position: fixed;
+    z-index: 2;
+}
+
+.div1{
+    width: 100%;
+    height: 75vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../IMAGES/about.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 2.5in;
+    color: white;
+    text-align: center;
+}
+
+.div1_part2{
+    width: 100%;
+    height: max-content;
+    padding: 30px;
+    border-bottom: 1px solid rgb(240,240,240);
+}
+
+.div1_part2 span,i{
+    color: gray;
+}
+
+.div1_part2 .abt{
+    font-size: 20px;
+    margin-right: 9in;
+    color: black;
+    cursor: default;
+}
+
+.div1_part2 .abt2{
+    color: rgb(39,77,215);
+    cursor: pointer;
+}
+
+.div1_part2 span{
+    cursor: pointer;
+}
+
+.div1_part2 .abt1:hover{
+    color: black;
+}
+
+.div2_sub{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-left: 1.3in; */
+    height: max-content;
+    padding: 1in 0;
+    background-color: rgb(245,245,245);
+}
+
+.div2_part2{
+    width: 22%;
+    height: 100%;
+    transition: all 2s;
+    position: relative;
+    overflow: hidden;
+}
+
+.div2_img{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(196,196,196);
+    overflow: hidden;
+    /* background-image: url(../IMAGES/team1.png);
+    background-position: center;
+    background-size: cover; */
+    
+}
+
+.div2_img img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+}
+
+.div2_part2:hover .div2_img img{
+    transform: scale(1.3);
+}
+
+.div2_txt{
+    width: 100%;
+    height: max-content;
+    background-color: white;
+    padding: 50px 50px;
+    text-align: left;
+}
+
+.div2_txt p{
+    color: gray;
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.div2_txt h3{
+    margin-bottom: 15px;
+    color: black;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    transition: color 0.5s;
+}
+
+.div2_txt h3:hover{
+    color: rgb(39,77,215);
+}
+
+.div2_txt i{
+    color: rgb(185,185,185);
+    margin-bottom: 5px;
+    
+}
+
+.div2_icon{
+    width: max-content;
+    height: max-content;
+    padding: 15px;
+    background-color: rgb(39,77,215);
+    position: absolute;
+    top: 399px;
+    right: 0;
+    transform: translateX(0%);
+    transition: all 1s; 
+}
+
+.benjamin{
+    font-size: 18px;
+    overflow-y: hidden;
+    color: white;
+    
+}
+
+.div2_icon .fa{
+    color: white;
+    margin-right: 10px;
+}
+
+.div6{
+    background-color: rgb(64,100,215);
+    padding: 1in;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(16,16,16);
+    display: flex;
+    padding: 1in 1in;
+}
+
+.div16{
+    width: 25%;
+    height: auto;
+}
+
+
+.div16 img{
+    margin-bottom: 30px;
+}
+
+.div16 p{
+    margin-bottom: 15px;
+    color: gray;
+    font-size: 14px;
+}
+
+footer .div17{
+    width: 28%;
+    height: max-content;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+.div17 span{
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 14px;
+}
+
+.div17 h2{
+    margin-bottom: 20px;
+}
+
+footer .div18{
+    /* width: 28%; */
+    height: max-content;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+.div18 h2{
+    margin-bottom: 20px;
+}
+
+.div18 span{
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 14px;
+}
+
+.div17 a, .div18 a{
+    display: block;
+}
+
+.div17 a:hover span{
+    color: white;
+}
+
+.div17 a:hover i{
+    color: white;
+}
+
+.div18 a:hover span{
+    color: white;
+}
+
+.div18 a:hover i{
+    color: white;
+}
+
+.div19{
+    width: 23%;
+    height: auto;
+    padding: 20px;
+}
+
+
+.div19 h2{
+    margin-bottom: 30px;
+    color: white;
+}
+
+.div19 p{
+    margin-bottom: 15px;
+    color: gray;
+    font-size: 14px;
+}
+
+
+.div19 span{
+    font-weight: bold;
+    color: gray;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+.div19_part2 .fa{
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+.div19_part2 .fa:hover{
+    color: rgb(39,77,215);
+}
+
+.div19 .fa-google-plus{
+    color: rgb(39,77,215);
+}
+
+
+.last_part{
+    width: 100%;
+    height: max-content;
+    padding: 30px 0;
+    background-color: rgb(22,22,22);
+    color: gray;
+    padding-left: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.arrow_div .fa{
+    padding: 15px;
+    font-weight: bold;
+    /* border-radius: 50%; */
+    background-color: rgb(76,64,247);
+    position: relative;
+    bottom: 20px;
+    left: 93vw;
+    color: white;
+    position: fixed;
+
+}
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+
+
+    body{
+        overflow-x: hidden;
+    }
+    
+    header{
+
+        padding: 10px 10px;
+     
+    }
+
+    .header2{
+        display: block;
+    }
+
+    .customer{
+        margin-right: 50px;
+    }
+
+    nav{
+        height: auto;
+        position: static;
+    }
+
+    .navbar{
+        width: 100vw;
+        display: block;
+        /* padding-right: ;  */
+        margin-right: 13%;  
+    }
+
+    ul{
+        flex-direction: column;
+    }
+
+    li{
+        padding: 10px;
+    }
+
+    .logo{
+        padding-right: 0;
+        
+    }
+
+    .wrench{
+        display: none;
+    }
+
+    .div1{
+        margin-top: 3in;
+        height: 50vh;
+        background-size: cover;
+        padding: 20vh 0;
+    }
+
+    .div1 h1{
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .div1_part2 .abt{
+        margin-right: 0;
+    }
+    
+    .div2_sub{
+        flex-direction: column;
+        height: max-content;
+        padding: 50px 0;
+        background-color: rgb(245,245,245);
+    }
+
+    .div2_part2{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+
+
+
+    .div2_img{
+        width: 100%;
+        height: 400px;
+        
+    }
+
+    .div2_img img{
+        width: 100%;
+        height: 396px;
+    }
+
+
+
+    .div2_icon{
+        width: max-content;
+        height: max-content;
+        padding: 15px;
+        margin-right: 10px;
+        background-color: rgb(39,77,215);
+        /* opacity: 0; */
+        /* visibility: hidden; */
+        /* display: none; */
+        /* z-index: 1; */
+        position: absolute;
+        top: 360px;
+        right: 0;
+    }
+
+    .benjamin{
+        font-size: 15px;
+        color: white;
+        
+    }
+ 
+    .div6{
+        background-color: rgb(64,100,215);
+        padding: 50px 10px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .div6 img{
+        width: 50px;
+        height: 30px;
+    }
+
+    footer{
+        flex-direction: column;
+        padding: 50px 10px;
+    }
+
+    .div16{
+        width: 95%;
+        margin-bottom: 30px;
+    }
+
+    footer .div17{
+        width: 95%;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+
+    .footer .div18{
+        width: 95%;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+
+    .div19{
+        width: 95%;
+        padding: 0;
+    }
+
+    .last_part{
+        padding: 30px 0;
+        padding-left: 0;
+        font-size: 14px;
+    }
+
+    .arrow_div .fa{
+        padding: 13px;
+        left: 82vw;
+
+    }
+}
